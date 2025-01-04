@@ -1,7 +1,6 @@
- <h1> Beginners Level Git and GitHub Commands </h1>
+ Beginners Level Git and GitHub Commands 
 
-<h3> Git: </h3>
-<p>
+Git: 
 Git is a distributed version control system that helps developers track changes to their code and collaborate on software projects.
 
 The main features of Git:
@@ -14,7 +13,6 @@ Branching and Merging: Git allows for branching, which lets developers create se
 Distributed: Every developer has a full copy of the entire repository, meaning they can work independently and later synchronize changes with others.
 
 Tracking History: Git tracks all changes made to the code, allowing developers to see the history of a project and revert to previous versions if necessary.
-</p>
 
 GitHub:
 GitHub is a cloud-based platform that uses Git for version control, but it adds several collaborative features. They are;
