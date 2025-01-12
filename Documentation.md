@@ -4,22 +4,24 @@
   Git is a distributed version control system that helps developers track changes to their code and collaborate on software projects.
 
 ## The main features of Git:
- 1.  Version Control: Git keeps track of all changes made to a codebase, allowing developers to manage different versions of files over time.
+<1.  Version Control:
+    Git keeps track of all changes made to a codebase, allowing developers to manage different versions of files over time.
 
-  2. Local Repositories: 
+<2. Local Repositories: 
    Git works on a local repository on a developer's machine. This means developers can work offline and commit changes to their local repository without needing 
    to be connected to the internet.
 
-3. Branching and Merging: 
-Git allows for branching, which lets developers create separate versions of the project to work on different features. Once a feature is complete, it can be merged back into the main project.
+<3. Branching and Merging: 
+   Git allows for branching, which lets developers create separate versions of the project to work on different features. Once a feature is complete, it can be 
+   merged back into the main project.
 
-4. Distributed:
-Every developer has a full copy of the entire repository, meaning they can work independently and later synchronize changes with others.
+<4. Distributed:
+   Every developer has a full copy of the entire repository, meaning they can work independently and later synchronize changes with others.
 
-5. Tracking History: 
-Git tracks all changes made to the code, allowing developers to see the history of a project and revert to previous versions if necessary.
+<5. Tracking History: 
+   Git tracks all changes made to the code, allowing developers to see the history of a project and revert to previous versions if necessary.
 
-##GitHub:
+## GitHub:
 
 GitHub is a cloud-based platform that uses Git for version control, but it adds several collaborative features. They are;
 Remote Repository Hosting: GitHub provides cloud-based repositories where developers can store their code, making it easy to share with others and collaborate on projects.
