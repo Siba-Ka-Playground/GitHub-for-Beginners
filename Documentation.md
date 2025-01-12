@@ -4,8 +4,8 @@
   Git is a distributed version control system that helps developers track changes to their code and collaborate on software projects.
 
 ## The main features of Git:
-  **1.  Version Control:**
-    Git keeps track of all changes made to a codebase, allowing developers to manage different versions of files over time.
+1.  Version Control:
+Git keeps track of all changes made to a codebase, allowing developers to manage different versions of files over time.
 
 2. Local Repositories: 
 Git works on a local repository on a developer's machine. This means developers can work offline and commit changes to their local repository without needing 
