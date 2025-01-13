@@ -28,8 +28,12 @@
 
 ## GitHub:
 
-GitHub is a cloud-based platform that uses Git for version control, but it adds several collaborative features. They are;
-Remote Repository Hosting: GitHub provides cloud-based repositories where developers can store their code, making it easy to share with others and collaborate on projects.
+GitHub is a cloud-based platform that uses Git for version control, but it adds several collaborative features. 
+They are;
+
+- Remote Repository Hosting:
+
+   GitHub provides cloud-based repositories where developers can store their code, making it easy to share with others and collaborate on projects.
 
 - Collaboration:
   
@@ -57,16 +61,20 @@ Remote Repository Hosting: GitHub provides cloud-based repositories where develo
 ## Configuring Git:
 
 git config -- global user.name "My Name"
+
 git config -- global user.email "name@gmail.com"
+
 git config -- list {To check the list of configuration}
 
 ## Clone and Status Command:
 
 1. Clone :- Cloning a Repository on the local Machine.
-git clone <-link->
+   
+   git clone <-link->
 
 2. Status :- Displays the state of the code.
-git status
+   
+   git status
 
 ## Types of state of the code:
 
@@ -78,42 +86,58 @@ git status
 ## Add and Commit Command:
 
 1. Add :- Add a new file
-git add <-file name->
+   
+   git add <-file name->
 
 2. Commit :- Record of change
-git commit - m "message to display"
+   
+   git commit - m "message to display"
 
 ## Push Command:
 
 Push :- Upload local repository to the remote repository.
-git push origin main
+
+  git push origin main
 
 ## init Command:
 
 init :- Used to create a new git repository
-git init
-git remote add origin <-link->
-git remote - v  (To verify Remote)
-git branch  (To check Branch)
-git branch - m main (To rename branch)
-git push origin main
+
+  git init
+
+  git remote add origin <-link->
+
+  git remote - v  (To verify Remote)
+
+  git branch  (To check Branch)
+
+  git branch - m main (To rename branch)
+
+  git push origin main
 
 ## Git Branch:
 
-git branch (To check Branch)
-git branch - m  main  (To rename branch)
-git checkout <-branch name->  (To navigate)
-git checkout - b <-new branch name->  (To create new branch)
-git branch - d <-branch name->  (To delete Branch)
+  git branch (To check Branch)
+
+  git branch - m  main  (To rename branch)
+
+  git checkout <-branch name->  (To navigate)
+
+  git checkout - b <-new branch name->  (To create new branch)
+
+  git branch - d <-branch name->  (To delete Branch)
 
 ## Merging Code :
 
 ### Way 1 :-
-git diff <-branch name->  (To compare commits, branches, files & more) 
-git merge <-branch name->  (To merge two branches)
+
+  git diff <-branch name->  (To compare commits, branches, files & more) 
+
+  git merge <-branch name->  (To merge two branches)
 
 ### Way 2 :-
-By creating a Pull Request
+
+  By creating a Pull Request
 
 ## Pull Request:
 
@@ -129,6 +153,7 @@ An event that takes place when Git is unable to resolve automatically the differ
 
 ### CASE 1 :- Staged Changes
 git reset  <-file name->
+
 git reset
 
 ### CASE 2 :- Committed Changes (For one Commit)
@@ -136,6 +161,7 @@ git reset HEAD~1
 
 ### CASE 3 :- Committed Changes (For Many Commits)
 git reset  <-commit hash->
+
 git reset --hard   <-commit hash->
 
 ## Fork :-
